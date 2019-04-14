@@ -4,5 +4,5 @@ import Home from '../Home';
 
 it('should render msg', () => {
   const wrapper = mount(<Home />);
-  expect(wrapper.find('HelloWorld')).toHaveText('Home1');
+  expect(wrapper.find('HelloWorld')).toHaveText('Home');
 });
